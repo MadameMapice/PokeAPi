@@ -52,12 +52,11 @@ a:hover{
 
 
 section{
-    background-image: url(section.jpg);
+    background-image: url(section1.jpg);
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    min-height: 100vh;
     padding-top: 50px;
- 
 }
 
 .data{
@@ -71,11 +70,82 @@ section{
     width: 50%;
     padding: 50px;
     line-height: 2rem;
-    margin-bottom: 40px;
+    margin: 50px auto;
+    height: 200px;
+    overflow: auto;
+}
+
+.data>*:hover{
+    cursor: pointer;
+    color: rgb(60, 108, 180);
+
+}
+
+.data_detail{
+
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: -10px 0px 13px -7px rgb(60, 108, 180), 10px 0px 13px -7px rgb(60, 108, 180), 5px 5px 15px 5px rgb(60, 108, 180);
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: left;
+    width: 50%;
+    padding: 50px;
+    line-height: 2rem;
+    display: none;
+    margin: 20px auto;
+
 }
 
 
 
+button {
+
+    background-color: rgba(252,211,12,1);
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px;
+    margin: 20px auto;
+ 
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(127,172,113);
+    text-shadow: rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) 1.75517px 0.958851px 0px, rgb(255, 255, 255) 1.0806px 1.68294px 0px, rgb(255, 255, 255) 0.141474px 1.99499px 0px, rgb(255, 255, 255) -0.832294px 1.81859px 0px, rgb(255, 255, 255) -1.60229px 1.19694px 0px, rgb(255, 255, 255) -1.97998px 0.28224px 0px, rgb(255, 255, 255) -1.87291px -0.701566px 0px, rgb(255, 255, 255) -1.30729px -1.5136px 0px, rgb(255, 255, 255) -0.421592px -1.95506px 0px, rgb(255, 255, 255) 0.567324px -1.91785px 0px, rgb(255, 255, 255) 1.41734px -1.41108px 0px, rgb(255, 255, 255) 1.92034px -0.558831px 0px;
+    border: 2px white solid;
+    color: rgb(127,172,113);
+    
+}
+
+.pokedex{
+    display: none;
+    background-image: url(/pokedex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 518px;
+    height: 388px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.poke{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.info{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    width: 180px;
+    height: 200px;
+  
+
+}
 
 footer{
     
@@ -100,24 +170,6 @@ footer p{
     padding-top: 80px;
 }
 
-
-
-button {
-
-    background-color: rgba(252,211,12,1);
-    font-family: 'Press Start 2P', cursive;
-    padding: 20px;
- 
-}
-
-button:hover{
-    cursor: pointer;
-    background-color: rgb(127,172,113);
-    text-shadow: rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) 1.75517px 0.958851px 0px, rgb(255, 255, 255) 1.0806px 1.68294px 0px, rgb(255, 255, 255) 0.141474px 1.99499px 0px, rgb(255, 255, 255) -0.832294px 1.81859px 0px, rgb(255, 255, 255) -1.60229px 1.19694px 0px, rgb(255, 255, 255) -1.97998px 0.28224px 0px, rgb(255, 255, 255) -1.87291px -0.701566px 0px, rgb(255, 255, 255) -1.30729px -1.5136px 0px, rgb(255, 255, 255) -0.421592px -1.95506px 0px, rgb(255, 255, 255) 0.567324px -1.91785px 0px, rgb(255, 255, 255) 1.41734px -1.41108px 0px, rgb(255, 255, 255) 1.92034px -0.558831px 0px;
-    border: 2px white solid;
-    color: rgb(127,172,113);
-    
-}
 
 @media screen  and (max-width: 1500px){
 
